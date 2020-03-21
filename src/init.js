@@ -22,12 +22,17 @@ $(document).ready(function() {
 
     // make a dancer with a random position
 
-    var dancer = dancerMakerFunction(
-      $("body").height() * Math.random(),
-      $("body").width() * Math.random(),
+    var dancer = new dancerMakerFunction(
+      Math.floor(Math.random() * 300),
+      Math.floor(Math.random() * 1200),
       Math.random() * 1000
     );
+    dancer.step();
+    dancer.setPosition(dancer.top , dancer.left);
+
     $('body').append(dancer.$node);
+
+
   });
 });
 
