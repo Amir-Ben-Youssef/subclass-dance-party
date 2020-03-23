@@ -4,11 +4,6 @@ var Dancer = function(top, left, timeBetweenSteps) {
   this.top = top;
   this.left = left;
   this.timeBetweenSteps = timeBetweenSteps;
-  // use jQuery to create an HTML <span> tag
-
-
-  // try?
-
 };
   Dancer.prototype.step = function() {
     // the basic dancer doesn't do anything interesting at all on each step,

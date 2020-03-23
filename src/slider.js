@@ -1,6 +1,8 @@
 var Slider = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img src = "https://lh3.googleusercontent.com/proxy/wnTiGDLwxvacEa2ZhhUmW5W2wFrBst9G31KVK2_0CohVmdBN5cyORZk0VK0tFrUYrA_Mf3lyTUGy3Bt9-W-qwpSuLB3mBPFK30i3z6ICV5_svvsH2tDAdRZ7duM" class="dancer"></img>')
+  this.$node = $('<img src = "sponge.gif" class="dancer">')
+
+
 
 }
 Slider.prototype = Object.create(Dancer.prototype);

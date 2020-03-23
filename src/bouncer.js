@@ -1,6 +1,6 @@
 var Bouncer = function(top, left, timeBetweenSteps) {
   Dancer.call(this, top, left, timeBetweenSteps);
-  this.$node = $('<img src = "https://www.jump-rush.com/wp-content/uploads/2019/02/afrojumper.png" class="dancer"></img>')
+  this.$node = $('<img src = "chinese.gif" class="dancer"></img>')
 
 }
 Bouncer.prototype = Object.create(Dancer.prototype);
